@@ -33,6 +33,7 @@ import usmar from './usmar.jpeg'
 import rupi from './rupi.jpeg'
 import anro from './anro.jpeg'
 import pse from './logo_pse.png'
+import bgPintech from './bgPintech.jpeg'
 
 export const company_logos = [
   health_med,
@@ -44,6 +45,7 @@ const assets = {
   arrow_icon,
   bgImage1,
   bgImage2,
+  bgPintech,
   hero_img,
   ads_icon,
   menu_icon,
@@ -75,7 +77,7 @@ const assets = {
 export default assets
 
 export const teamData = [
-  { name: 'Rupinda Manalu Amd.Kom, S.Kom', title: 'Direktur Utama', image: rupi },
+  { name: 'Rupinda Manalu Amd.Kom, S.Kom', title: 'Founder', image: rupi },
   { name: 'Anro Manalu Amd.Kom, S.Kom', title: 'Manager Operasional & Support', image: anro },
   { name: 'Usmar Manalu S.Kom', title: 'Head of Development', image: usmar },
 

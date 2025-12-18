@@ -10,7 +10,7 @@ const Hero = () => {
       className="flex flex-col items-center gap-6 py-20 px-4 sm:px-12
     lg:px-24 xl-px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white"
     >
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.7 }}
@@ -19,7 +19,7 @@ const Hero = () => {
       >
         <img className="w-20" src={assets.trusted} alt="" />
         <p className="text-xs font-medium">Dipercaya oleh Mitra Kami</p>
-      </motion.div>
+      </motion.div> */}
 
       <motion.h1
         initial={{ opacity: 0, y: 40 }}
@@ -61,7 +61,7 @@ const Hero = () => {
         div
         className="relative"
       >
-        <img src={assets.hero_img} alt="" className="w-full max-w-6xl rounded-3xl" />
+        <img src={assets.bgPintech} alt="" className="w-full max-w-6xl rounded-3xl" />
         <img
           src={assets.bgImage1}
           alt=""

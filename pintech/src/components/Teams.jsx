@@ -33,10 +33,10 @@ const Teams = () => {
             dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5
             hover:scale-103 transition-all duration-400"
           >
-            <img src={team.image} className="w-12 h-12 rounded-full" alt="" />
+            <img src={team.image} className="w-24 h-24 rounded-full" alt="" />
             <div className="flex-1">
               <h3 className="font-bold text-sm ">{team.name}</h3>
-              <p className="text-xs opacity-60 text-center">{team.title}</p>
+              <p className="text-xs opacity-60">{team.title}</p>
             </div>
           </motion.div>
         ))}

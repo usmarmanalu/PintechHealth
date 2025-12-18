@@ -11,6 +11,7 @@ const TrustedBy = () => {
     transition={{ duration: 0.6 }}
     viewport={{ once: true }}
 
+    id='client'
     className='flex flex-col items-center px-4 sm:px-12 lg:px-24 xl:px-40 gap-10 text-gray-700 dark:text-white/80'>
       <motion.h3 
       initial={{ opacity: 0, y: 20 }}
@@ -34,7 +35,7 @@ const TrustedBy = () => {
               visible: {opacity: 1, y: 0}
             }}
             transition={{duration: 0.4}}
-            key={index} src={logo} alt="" className='max-h-5 sm:max-h-6 dark:drop-shadow-xl' />
+            key={index} src={logo} alt="" className='max-h-5 sm:max-h-12 dark:drop-shadow-xl' />
         ))}
         </motion.div>
     </motion.div>

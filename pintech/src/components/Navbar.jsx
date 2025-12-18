@@ -43,6 +43,13 @@ const Navbar = ({ theme, setTheme }) => {
         >
           Beranda
         </a>
+         <a
+          onClick={() => setSidebarOpen(false)}
+          href="#client"
+          className="sm:hover:border-b"
+        >
+          Klien Kami
+        </a>
         <a
           onClick={() => setSidebarOpen(false)}
           href="#services"
