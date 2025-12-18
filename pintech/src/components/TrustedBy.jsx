@@ -18,7 +18,7 @@ const TrustedBy = () => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
 
-      className='font-semibold'>Dipercaya oleh Klinik dan Rumah Sakit Terkemuka</motion.h3>
+      className='font-semibold text-center'>Dipercaya oleh Klinik dan Rumah Sakit Terkemuka</motion.h3>
 
       <motion.div
       initial="hidden"
