@@ -83,7 +83,7 @@ const Product = () => {
               <p
                 ref={descRef}
                 className={`text-sm opacity-60 w-5/6 ${
-                  expanded ? "" : "line-clamp-5"
+                  expanded ? "" : "line-clamp-4"
                 }`}
               >
                 {work.desc}
