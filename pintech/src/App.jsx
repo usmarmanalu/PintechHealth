@@ -3,11 +3,12 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
 import Services from "./components/Services";
-import OurWork from "./components/OurWork";
+import OurWork from "./components/Product";
 import Teams from "./components/Teams";
 import ContactUs from "./components/ContactUs";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
+import Product from "./components/Product";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -66,7 +67,7 @@ const App = () => {
       <Hero />
       <TrustedBy />
       <Services />
-      <OurWork />
+      <Product />
       <Teams />
       <ContactUs />
       <Footer theme={theme} />

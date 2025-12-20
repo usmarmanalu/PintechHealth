@@ -39,7 +39,7 @@ const ContactUs = () => {
       viewport={{ once: true }}
       transition={{staggerChildren: 0.2}}
 
-      id="contact-us"
+      id="kontak"
       className="flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 
     text-gray-7700 dark:text-white"
     >

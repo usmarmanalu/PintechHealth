@@ -14,11 +14,13 @@ const Navbar = ({ theme, setTheme }) => {
     transition={{duration: 0.6, ease: 'easeOut'}}
 
     className="flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bgg-white/50 dark:bg-gray-900/70">
+      <a href="/" className="cursor-pointer">
       <img
         src={theme === "dark" ? assets.logo_dark : assets.logo}
         className="w-32 sm:w-40"
-        alt=""
+        alt="Logo"
       />
+    </a>
 
       <div
         className={`text-gray-700 dark:text-white sm:text-sm ${
@@ -43,30 +45,31 @@ const Navbar = ({ theme, setTheme }) => {
         >
           Beranda
         </a>
-         <a
-          onClick={() => setSidebarOpen(false)}
-          href="#client"
-          className="sm:hover:border-b"
-        >
-          Klien Kami
-        </a>
+         
         <a
           onClick={() => setSidebarOpen(false)}
-          href="#services"
+          href="#layanan-integrasi"
           className="sm:hover:border-b"
         >
           Layanan Integrasi
         </a>
         <a
           onClick={() => setSidebarOpen(false)}
-          href="#our-work"
+          href="#produk"
           className="sm:hover:border-b"
         >
           Produk
         </a>
+        {/* <a
+          onClick={() => setSidebarOpen(false)}
+          href="#client"
+          className="sm:hover:border-b"
+        >
+          Klien Kami
+        </a> */}
         <a
           onClick={() => setSidebarOpen(false)}
-          href="#contact-us"
+          href="#kontak"
           className="sm:hover:border-b"
         >
           Hubungi Kami
@@ -85,10 +88,10 @@ const Navbar = ({ theme, setTheme }) => {
 
         <a
           href="#contact-us"
-          className="text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full
+          className="text-sm max-sm:hidden flex items-center gap-2 bg-[#67C090] text-white px-6 py-4 rounded-full
         cursor-pointer hover:scale-103 tranition-all"
         >
-          Konsultasi<img src={assets.arrow_icon} width={14} alt="" />
+          Konsultasi Gratis<img src={assets.arrow_icon} width={14} alt="" />
         </a>
       </div>
     </motion.div>
