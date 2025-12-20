@@ -37,17 +37,17 @@ const Footer = ({ theme }) => {
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-primary">
+              <a href="#layanan-integrasi" className="hover:text-primary">
                 Layanan Integrasi
               </a>
             </li>
             <li>
-              <a href="#our-work" className="hover:text-primary">
+              <a href="#produk" className="hover:text-primary">
                 Produk
               </a>
             </li>
             <li>
-              <a href="#contact-us" className="hover:text-primary">
+              <a href="#kontak" className="hover:text-primary">
                 Hubungi Kami
               </a>
             </li>
