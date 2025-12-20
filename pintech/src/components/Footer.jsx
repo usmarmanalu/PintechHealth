@@ -104,6 +104,28 @@ const Footer = ({ theme }) => {
         </p>
       </motion.div>
 
+       {/* HL7 / FHIR COMPLIANCE */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left py-4"
+      >
+        <img
+          src={assets.hl7_fhir1}
+          alt="HL7 FHIR Standard"
+          className="w-16 h-auto"
+        />
+        <p className="text-sm text-gray-600 dark:text-gray-400 max-w-xl">
+          Mendukung standar interoperabilitas{" "}
+          <span className="font-medium text-gray-800 dark:text-gray-200">
+            HL7® FHIR® (Fast Healthcare Interoperability Resources)
+          </span>{" "}
+          untuk pertukaran data kesehatan yang aman dan terstruktur.
+        </p>
+      </motion.div>
+
       {/* footer bottom */}
       <motion.div
         initial={{ opacity: 0 }}

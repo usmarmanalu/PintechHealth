@@ -27,13 +27,18 @@ import lis from './lis.jpeg'
 import antrian from './antrian.jpeg'
 import website from './website.jpeg'
 import logo_bpjs from './logo_bpjs.png'
+import logo_bpjs1 from './logo_bpjs1.png'
+
 import logo_satu_sehat from './logo_satu_sehat.png'
+import logo_satu_sehat1 from './logo_satu_sehat1.png'
 import trusted from './trusted.png'
 import usmar from './usmar.jpeg'
 import rupi from './rupi.jpeg'
 import anro from './anro.jpeg'
 import pse from './logo_pse.png'
 import bgPintech from './bgPintech.jpeg'
+import hl7_fhir from './hl7_fhir.svg'
+import hl7_fhir1 from './hl7_fhir1.png'
 
 export const company_logos = [
   health_med,
@@ -69,9 +74,13 @@ const assets = {
   antrian,
   website,
   logo_bpjs,
+  logo_bpjs1,
   logo_satu_sehat,
+  logo_satu_sehat1,
   trusted,
-  pse
+  pse,
+  hl7_fhir,
+  hl7_fhir1,
 }
 
 export default assets
