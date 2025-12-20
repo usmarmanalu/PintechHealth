@@ -31,6 +31,11 @@ const Product = () => {
       desc: "Website company profile untuk RS/Klinik yang berfungsi sebagai media promosi, berisi halaman- halaman informatif yang mencakup daftar produk, layanan, serta berbagai informasi penting lainnya.",
       image: assets.website,
     },
+    {
+      title: "Aplikasi Android Klinik & Rumah Sakit",
+      desc: "Aplikasi mobile berbasis Android yang dirancang untuk mendukung layanan Klinik dan Rumah Sakit, mencakup pendaftaran pasien, manajemen antrean, jadwal dokter, riwayat kunjungan, serta integrasi sistem informasi kesehatan.",
+      image: assets.android,
+    },
   ];
 
   return (
@@ -60,8 +65,7 @@ const Product = () => {
           useEffect(() => {
             if (descRef.current) {
               setShowButton(
-                descRef.current.scrollHeight >
-                  descRef.current.clientHeight
+                descRef.current.scrollHeight > descRef.current.clientHeight
               );
             }
           }, []);
@@ -76,9 +80,7 @@ const Product = () => {
               className="hover:scale-102 transition-all duration-500 cursor-pointer"
             >
               <img src={work.image} className="w-full rounded-xl" alt="" />
-              <h3 className="mt-3 mb-2 text-lg font-semibold">
-                {work.title}
-              </h3>
+              <h3 className="mt-3 mb-2 text-lg font-semibold">{work.title}</h3>
 
               <p
                 ref={descRef}

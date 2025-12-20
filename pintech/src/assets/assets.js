@@ -26,6 +26,7 @@ import pacs from './pacs.jpeg'
 import lis from './lis.jpeg'
 import antrian from './antrian.jpeg'
 import website from './website.jpeg'
+import android from './android.png'
 import logo_bpjs from './logo_bpjs.png'
 import logo_bpjs1 from './logo_bpjs1.png'
 
@@ -73,6 +74,7 @@ const assets = {
   lis,
   antrian,
   website,
+  android,
   logo_bpjs,
   logo_bpjs1,
   logo_satu_sehat,
