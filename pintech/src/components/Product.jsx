@@ -80,11 +80,11 @@ const Product = () => {
               className="hover:scale-102 transition-all duration-500 cursor-pointer"
             >
               <img src={work.image} className="w-full rounded-xl" alt="" />
-              <h3 className="mt-3 mb-2 text-lg font-semibold">{work.title}</h3>
+              <h3 className="mt-3 mb-2 text-lg font-bold">{work.title}</h3>
 
               <p
                 ref={descRef}
-                className={`text-sm opacity-60 w-5/6 ${
+                className={`text-sm text-justify opacity-60 w-5/6 ${
                   expanded ? "" : "line-clamp-4"
                 }`}
               >

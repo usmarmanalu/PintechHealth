@@ -48,8 +48,8 @@ const ServicesCard = ({ service, index }) => {
         </div>
 
         <div className="flex-1">
-          <h3 className="font-bold">{service.title}</h3>
-          <p className="text-sm mt-2">{service.desc}</p>
+          <h3 className="font-bold text-lg">{service.title}</h3>
+          <p className="text-sm text-justify mt-2">{service.desc}</p>
         </div>
       </div>
     </motion.div>
