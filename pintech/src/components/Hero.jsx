@@ -61,7 +61,7 @@ const Hero = () => {
         div
         className="relative"
       >
-        <img src={assets.bgPintech} alt="" className="w-full max-w-6xl rounded-3xl" />
+        <img src={assets.bgPintech1} alt="" className="w-full max-w-6xl rounded-3xl" />
         <img
           src={assets.bgImage1}
           alt=""

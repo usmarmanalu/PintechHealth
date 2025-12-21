@@ -38,6 +38,7 @@ import rupi from './rupi.jpeg'
 import anro from './anro.jpeg'
 import pse from './logo_pse.png'
 import bgPintech from './bgPintech.jpeg'
+import bgPintech1 from './bgPintech1.jpeg'
 import hl7_fhir from './hl7_fhir.svg'
 import hl7_fhir1 from './hl7_fhir1.png'
 
@@ -52,6 +53,7 @@ const assets = {
   bgImage1,
   bgImage2,
   bgPintech,
+  bgPintech1,
   hero_img,
   ads_icon,
   menu_icon,
