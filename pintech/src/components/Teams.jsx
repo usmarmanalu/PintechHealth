@@ -30,7 +30,7 @@ const Teams = () => {
 
             key={index}
             className="flex max-sm:flex-col items-center gap-5 p-4 rounded-xl border border-gray-100 
-            dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5
+            dark:border-gray-700 bg-[#CBDCEB] dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5
             hover:scale-103 transition-all duration-400"
           >
             <img src={team.image} className="w-24 h-24 rounded-full" alt="" />

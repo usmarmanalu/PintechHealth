@@ -35,6 +35,9 @@ const Navbar = ({ theme, setTheme }) => {
           <a href="#produk" className="hover:border-b">
             Produk
           </a>
+          {/* <a onClick={() => setSidebarOpen(false)} href="#">
+          Berita
+        </a> */}
           <a href="#kontak" className="hover:border-b">
             Hubungi Kami
           </a>
@@ -96,6 +99,9 @@ const Navbar = ({ theme, setTheme }) => {
         <a onClick={() => setSidebarOpen(false)} href="#produk">
           Produk
         </a>
+        {/* <a onClick={() => setSidebarOpen(false)} href="#">
+          Berita
+        </a> */}
         <a onClick={() => setSidebarOpen(false)} href="#kontak">
           Hubungi Kami
         </a>
